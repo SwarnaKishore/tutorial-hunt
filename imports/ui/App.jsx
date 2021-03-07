@@ -1,10 +1,11 @@
 import React from 'react';
 import { TutorialList } from './TutorialList';
 import { AddTutorialForm } from './AddTutorialForm';
+import { NavBar } from './NavBar';
 
 export const App = () => (
   <div>
-  <h1>Tutorial Hunt</h1>
+    <NavBar/>
     <AddTutorialForm/>
     <TutorialList/>
   </div>
