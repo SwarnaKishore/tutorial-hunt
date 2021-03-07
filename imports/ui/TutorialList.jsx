@@ -10,7 +10,10 @@ export const TutorialList = () => {
   return (
     <div>
       <ul>{tutorials.map(
-        item => <li>{item.name}</li>
+        item => <li>
+                    <div>{item.name} </div>
+                    <div>{item.url} </div>
+                </li>
       )}</ul>
     </div>
   );
