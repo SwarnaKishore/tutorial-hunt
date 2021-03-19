@@ -36,7 +36,7 @@ export const AddTutorialForm = () => {
         value={tutorialUrl}
         onChange={(e) => setTutorialUrl(e.target.value)}
       />
-      <button type="submit" onClick={handleSubmit}>Add tutorial</button>
+      <button class="btn waves-effect waves-light" type="submit" onClick={handleSubmit}>Add tutorial <i class="mdi-content-send right"></i></button>
     </form>
   );
 };
