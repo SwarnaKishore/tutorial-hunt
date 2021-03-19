@@ -1,6 +1,7 @@
 import React from 'react';
 import { TutorialList } from './TutorialList';
 import { AddTutorialForm } from './AddTutorialForm';
+import { CategoryList } from './CategoryList';
 import { NavBar } from './NavBar';
 
 export const App = () => (
@@ -11,7 +12,8 @@ export const App = () => (
         <h5 className="center tag-line">View and share the best and free tutorials at one place</h5>
       </div>
     </div>
+    <CategoryList/>
     {/* <AddTutorialForm/> */}
-    <TutorialList/>
+    {/* <TutorialList/> */}
   </div>
 );
