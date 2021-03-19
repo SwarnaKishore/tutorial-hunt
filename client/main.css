@@ -1,3 +1,8 @@
 body {
   font-family: "Open Sans";
 }
+
+.tag-line {
+  margin:25px;
+  font-family: 'Dancing Script', cursive;
+}
