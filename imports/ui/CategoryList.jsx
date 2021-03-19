@@ -8,7 +8,7 @@ export const CategoryList = () => {
   });
 
   return (
-        <div id="categoriesTab">
+        <div className="container" id="categoriesTab">
             <div className="col s12 m10 l6">
                 <div className="collection">
                     {categories.map(

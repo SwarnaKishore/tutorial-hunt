@@ -20,4 +20,5 @@ body {
 
 .collection a.collection-item {
   color: black;
+  cursor: pointer;
 }
