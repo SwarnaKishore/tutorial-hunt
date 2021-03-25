@@ -1,0 +1,7 @@
+{
+    "galaxy.meteor.com": {
+       "env": {
+         "MONGO_URL": "mongodb://swarna:9vpRzRveHxGYvMZ78@SG-galaxycluster-38726.servers.mongodirector.com:27017,SG-galaxycluster-38727.servers.mongodirector.com:27017/tutorial-hunt-meteorapp-com?replicaSet=RS-galaxycluster-0&ssl=true"
+       }
+     }
+  }
